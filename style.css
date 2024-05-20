@@ -1,0 +1,534 @@
+/*DOCUMENTO CSS*/
+
+*{ margin: 0px;
+padding: 0px;
+font-family: "Lexend Deca", sans-serif;}
+
+header {
+    background-color: rgb(254, 188, 7);
+    color: rgb(251, 251, 251);
+    font-family: 'Lexend Deca', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding: 3px;
+}
+
+.navbar {
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.container-links {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center; 
+}
+
+.links {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.item {
+    margin: 0 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.item i {
+    font-size: 1.5em; 
+    margin-right: 5px; 
+}
+
+.links {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.item {
+    margin: 0 10px;}
+
+
+.patinesss:hover {color: violet;}
+.item:hover { color: pink;}
+
+.product-name:hover { color: pink;}
+
+/* SECCIÓN 1 INICIO */
+
+.new-collection {
+    margin: 50px 0;
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.image-content {
+    max-width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.collection-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.collection-subtitle {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.btn-outline-dark {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(255, 253, 253);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.collection-description {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-evenly; 
+}
+
+.product-section {
+    margin-top: 50px;
+}
+
+.product {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+}
+
+  /*SECCIÓN ROLLERSKATES*/
+
+.Rollerskates {
+    margin: 50px 0;
+  }
+  
+  .text-content {
+    max-width: 40%;
+  }
+  
+  .image-content {
+    max-width: 100%;
+    display: flex;
+    gap: 5px;
+}
+  
+  .image-content img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .rollerskates-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  
+  .btn-outline-dark {
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  
+  .product-section {
+    margin-top: 50px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+  }
+
+  /* SECCIÓN SKATEGEAR */
+
+
+.skategear-section {
+    margin: 50px 0;
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.image-content {
+    max-width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.skategear-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+
+.btn-outline-dark{
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(255, 253, 253);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.product-section {
+    margin-top: 50px;
+}
+
+.product {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+}
+
+
+  /* SECCIÓN ROPA Y ACCESORIOS */
+
+
+.ropayaccesorios-section {
+    margin: 50px 0;
+  }
+  
+  .text-content {
+    max-width: 40%;
+  }
+  
+  .image-content {
+    max-width: 55%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .image-content img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .ropayaccesorios-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  
+  .btn-outline-dark {
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  
+  .product-section {
+    margin-top: 50px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+  }
+
+  /* SECCIÓN SOBRE NOSOTROS */
+
+
+.sobrenosotros-section {
+    margin: 50px 0;
+}
+
+.sobrenosotros-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    display: flex;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    flex: 2;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+/* TARJETAS DE REGALO */
+
+.tarjetasderegalo-section {
+    margin: 50px 0;
+  }
+  
+  .text-content {
+    max-width: 40%;
+  }
+  
+  .image-content {
+    max-width: 55%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .image-content img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .tarjetasderegalo-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  
+  .btn-outline-dark {
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  
+  .product-section {
+    margin-top: 50px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+  }
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(254, 188, 7);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.subscribete {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subscribete label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.subscribete input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+}
+.social-media {
+    text-align: center;
+}
+.social-media span {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+}
+.social-media .icons {
+    margin-top: 10px;
+}
+.social-media .icons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.copyright {
+    text-align: right;
+}
+.copyright span {
+    display: block;
+}
+
+
+  
